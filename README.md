@@ -26,3 +26,28 @@ He thought it'll be a good idea to convert this to Object Oriented Programming. 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
 - Try to articulate problems with Shivam's OOP solution. (Write it somewhere and share it with your trainer)
 - Fork the project and fix the design related problem with Shivam's OOP solution. Share that with your trainer too.
+
+------------------------------------------------------------------------------------
+Problems with Shiva's OOPS solution:
+
+-Shivam created "Point" class with out behaviours and "DistanceAndDirectionCalculator" class with out properties.It is a bad practice.
+A class is complete only if it has both properties and behaviours.A class without properties is just procedural methods in class.
+Encapsulation is not fulfilled because of this.
+
+-Usage of setters and getters is a bad practice.
+
+-Test methods are not written in AAA format.
+
+-"Assertions.assertEquals" has made the code look clumsy, instead "Assertions" could have been imported.
+
+-Fewer methods principle is not followed and intention is also not revealed.
+
+-Static methods should not be used unless it is most needed.
+
+-KISS (keep it Simple and stupid) is also not followed.
+
+Solution:
+
+It is best to encapsulate all methods and properties in "Point" class itself.
+
+
